@@ -6,7 +6,6 @@ nav {
     width: 94%;
     max-width: 960px; 
     height: 40px;
-    // float: right;
     list-style: none;
     background-color: lightblue;
     li {
@@ -26,4 +25,19 @@ nav {
       }
     }
   }
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  letter-spacing: -2px;
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
 }
