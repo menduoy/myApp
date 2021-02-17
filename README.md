@@ -7,5 +7,5 @@
 https://murmuring-peak-69068.herokuapp.com/
 
 * ログイン用サンプルアカウント
-Email : exapmle@todoapp.org
+Email : example@todoapp.org
 Password: foobar
