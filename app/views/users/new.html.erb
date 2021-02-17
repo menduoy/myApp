@@ -1,6 +1,9 @@
 <% provide(:title, 'Sign up') %>
-<h1>Sign up</h1>
-<p class="white">アカウントを作成してみましょう！</p>
+
+<div class="center">
+  <h1>Sign up</h1>
+  <p>アカウントを作成してみましょう！</p>
+</div>
 
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
@@ -21,5 +24,6 @@
 
       <%= f.submit "アカウント作成", class: "btn btn-primary" %>
     <% end %>
+    <p>すでにアカウントを持っている方は <%= link_to "こちら", login_path %></p>
   </div>
 </div>
